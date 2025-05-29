@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jiajun JIANG's Homepage</title>
+
+    <meta name="author" content="Jiajun JIANG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Jiajun JIANG
+                </p>
+                <p>I'm a second-year Ph.D. student at the <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">ROAS Thrust, HKUST(GZ)</a> in Guangzhou, China.
+                  Prior to that, I received both my bachelor's and master's degrees from Zhejiang University and was advised by Prof. <a href="https://person.zju.edu.cn/zhangyu">Yu Zhang</a>.
+                  I previously worked as an algorithm engineer at the Autonomous Driving Lab, Alibaba Group in Hangzhou, China, focusing on autonomous driving.
+                </p>
+                <p>
+                  I'm currently supervised by Prof. <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/people/song">Jie Song</a>. 
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:jjiang127@connect.hkust-gz.edu.cn">Email</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=Fbx1Uf4AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/eku127">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/me.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/me.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <p>
+                <strong>2025/05/29</strong> Academic page is online!
+              </p>
+              
+            </td>
+          </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  My current research mainly focuses on robot mapping and navigation.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+    <tr onmouseout="dualmap_stop()" onmouseover="dualmap_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dualmap_image'><video  width=100% muted autoplay loop>
+          <source src="dualmap/website-teaser-final_x264.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='dualmap/cover-2.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function dualmap_start() {
+            document.getElementById('dualmap_image').style.opacity = "1";
+          }
+
+          function dualmap_stop() {
+            document.getElementById('dualmap_image').style.opacity = "0";
+          }
+          dualmap_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://eku127.github.io/DualMap/">
+          <span class="papertitle">DualMap: Online Open-Vocabulary Semantic Mapping for Natural Language Navigation in Dynamic Changing Scenes</span>
+        </a>
+        <br>
+        <u><strong>Jiajun Jiang</strong></u>,
+        Yiming Zhu,
+        <a href="https://wuzirui.github.io/">Zirui Wu</a>,
+        <a href="https://ait.ethz.ch/people/song">Jie Song</a>^
+        <br>
+        <em><strong style="color:red;">arXiv 2025</strong></em>
+        <br>
+        <a href="https://eku127.github.io/DualMap/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=ZmZDvhyXL_g">video</a>
+        /
+        <a href="https://arxiv.org/abs/2409.xxxx">paper</a>
+        <p></p>
+        <p>
+          DualMap is a novel online open-vocabulary mapping system that enables robots to understand and navigate dynamically changing environments through natural language queries.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div>
+          <img src='Thermal/tislam.jpg' width=100%>
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/9804793">
+          <span class="papertitle">Thermal-Inertial SLAM for the Environments with Challenging Illumination</span>
+        </a>
+        <br>
+        <u><strong>Jiajun Jiang</strong></u>,
+        Xingxin Chen,
+        <a href="https://github.com/weichnn">WeiChen Dai</a>,
+        <a href="https://jameskuma.github.io/">Zelin Gao</a>,
+        <a href="https://person.zju.edu.cn/zhangyu">Yu Zhang</a>^
+        <br>
+        <em><strong style="color:red;">RA-L (2022)</strong></em>
+        <br>
+        <a href="https://ieeexplore.ieee.org/document/9804793/">paper</a>
+        <p></p>
+        <p>
+          A thermal-inertial SLAM system for all-day autonomous systems
+        </p>
+      </td>
+    </tr>
+
+    </table>
+  </body>
+</html>
