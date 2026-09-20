@@ -109,6 +109,25 @@ h2 {
   font-size: 34px;
 }
 
+.profile-photo {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Frame the upper body within an 840px square starting at (390, 510). */
+.profile-photo img {
+  position: absolute;
+  width: 152.381%;
+  max-width: none;
+  height: auto;
+  left: -46.429%;
+  top: -60.714%;
+}
+
 .one {
   width: 160px;
   height: 160px;
