@@ -152,3 +152,101 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Keep mobile browsers from enlarging text inside narrow table columns. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.publications {
+  table-layout: fixed;
+}
+
+.publications img,
+.publications video {
+  max-width: 100%;
+  height: auto;
+}
+
+.publications .one {
+  width: 100%;
+  height: auto;
+}
+
+.publications .two {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 16px;
+  }
+
+  body, td, th, tr, p, a, strong, .papertitle {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .profile, .profile > tbody, .profile > tbody > tr,
+  .publications, .publications > tbody, .publications > tbody > tr {
+    display: block;
+    width: 100%;
+  }
+
+  .profile > tbody > tr > td,
+  .publications > tbody > tr > td {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    overflow-wrap: break-word;
+  }
+
+  .name {
+    padding-top: 0;
+    font-size: 28px;
+  }
+
+  .profile-photo {
+    width: 144px;
+    margin: 20px auto 24px;
+  }
+
+  .research-intro td {
+    padding: 8px 0 16px !important;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .publications > tbody > tr {
+    margin-bottom: 28px;
+  }
+
+  .publications > tbody > tr > td:first-child {
+    max-width: 260px !important;
+    margin: 0 auto 12px;
+  }
+
+  .publications img,
+  .publications video {
+    display: block;
+    max-height: 160px;
+    object-fit: contain;
+  }
+
+  .publications p {
+    margin: 10px 0 0;
+  }
+
+  .publications p:empty {
+    display: none;
+  }
+}
